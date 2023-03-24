@@ -1,0 +1,28 @@
+.app{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+ }
+ footer{
+	margin-top: auto;
+ }
+.active{
+	color: #fff;
+}
+
+/* .ant-drawer-title{
+color: #05d3ac !important;
+} */
+.ant-drawer-body{
+padding-top:10px !important;
+}
+ul{
+margin-bottom: 0 !important;
+}
+
+.fon{
+	background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
