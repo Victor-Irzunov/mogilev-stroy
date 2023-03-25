@@ -12,7 +12,7 @@ import img5 from '../../images/otzyvy/5.webp'
 
 const content = (
 	<div>
-		<p>Отзыв будет опубликован только если это отзыв клиента нашей службы и после проверки модератора.</p>
+		<p>Отзыв будет опубликован только если это отзыв нашего и после проверки модератора.</p>
 	</div>
 )
 
@@ -93,7 +93,7 @@ export const OtzyvyPage = () => {
 						</div>
 						<div className='pl-6 mt-2'>
 							<p className='text-left text-sm mt-4'>
-								Живу за городом, устал от старой печки, постоянно дым в доме, посоветовали соседи, покласть печку, сделали такую красоту, ни дыма, ни запаха, я очень даволен и благодарен.
+								Живу за городом, устал от старой печки, постоянно дым в доме, посоветовали соседи, положить печку, сделали такую красоту, ни дыма, ни запаха, я очень доволен и благодарен.
 							</p>
 
 						</div>
@@ -126,8 +126,8 @@ export const OtzyvyPage = () => {
 								<Rate allowHalf defaultValue={5} />
 
 							</div>
-							<div className='w-1/4'>
-								<Image src={img3}  preview={false} className='rounded-sm shadow-xl' />
+							<div className='w-1/4 ml-6'>
+								<Image src={img3} className='rounded-sm shadow-xl' />
 							</div>
 						</div>
 						<div className='pl-6 mt-2'>
@@ -164,8 +164,8 @@ export const OtzyvyPage = () => {
 								<Rate allowHalf defaultValue={5} />
 
 							</div>
-							<div className='w-1/4'>
-								<Image src={img4} preview={false} className='rounded-sm shadow-xl' />
+							<div className='w-1/4 ml-6'>
+								<Image src={img4} className='rounded-sm shadow-xl' />
 							</div>
 						</div>
 						<div className='pl-6 mt-2'>
@@ -203,13 +203,13 @@ export const OtzyvyPage = () => {
 								<Rate allowHalf defaultValue={4.7} />
 
 							</div>
-							<div className='w-1/4'>
-								<Image src={img5} preview={false} className='rounded-sm shadow-xl' />
+							<div className='w-1/4 ml-6'>
+								<Image src={img5} className='rounded-sm shadow-xl' />
 							</div>
 						</div>
 						<div className='pl-6 mt-2'>
 							<p className='text-left text-sm mt-4'>
-								Сделали красивую ванную, как я мечтала. Очень удобно и сантехник и плиточник в одном месте. По электрике помогли, не пришлось искать электриков. Ценой и качеством я давольна. Спасибо!
+								Сделали красивую ванную, как я мечтала. Очень удобно и сантехник и плиточник в одном месте. По электрике помогли, не пришлось искать электриков. Ценой и качеством я довольна. Вы молодцы. Спасибо!
 							</p>
 
 						</div>
@@ -237,7 +237,7 @@ export const OtzyvyPage = () => {
 					>
 
 						<Popover content={content} title={<div className='text-center'><ExclamationCircleOutlined className='text-2xl text-orange-500 ml-3' /></div>} trigger="click">
-							<ExclamationCircleOutlined className='text-xl mr-5 text-orange-400' />
+							<ExclamationCircleOutlined className='text-xl mr-5 text-[#AFD93B]' />
 						</Popover>
 						<Button onClick={() => setAdd(true)}>Добавить отзыв</Button>
 					</div>

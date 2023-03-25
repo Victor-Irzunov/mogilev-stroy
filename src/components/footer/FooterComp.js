@@ -49,7 +49,7 @@ export const FooterComp = () => {
   }
 
   return (
-    <footer className='pt-10 bg-white h-[50vh] overflow-hidden relative'>
+    <footer className='pt-10 bg-white h-[60vh] overflow-hidden relative'>
       <div className='container px-5'>
         <div className='flex flex-col justify-between'>
           <motion.div
@@ -100,6 +100,7 @@ export const FooterComp = () => {
               text-center
               sm:text-[14px]
               xy:text-[10px]
+              xyy:text-[10px]
               leading-[27px]
               text-gray-500
               "

@@ -60,7 +60,7 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 									<ul
 										className='flex justify-between 
 										items-center text-lg font-light
-										text-[#05d3ac] cursor-pointer
+										text-[#AFD93B] cursor-pointer
 										 mb-0'
 									>
 										<li>
@@ -68,7 +68,7 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 												smooth={true}
 												offset={-100}
 												duration={800}
-												className="cursor-pointer text-[#05d3ac]"
+												className="cursor-pointer text-[#AFD93B]"
 												onMouseEnter={handleMouseLeave}
 											>
 												Главная
@@ -144,7 +144,7 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 										style={{ borderTop: '1px solid #ccc', zIndex: '100000' }}
 									>
 										<div className='container mx-auto px-10'>
-											<div className=' text-[#05d3ac] pt-10 text-sm border-t-white font-light flex justify-between items-start'>
+											<div className=' text-[#AFD93B] pt-10 text-sm border-t-white font-light flex justify-between items-start'>
 												<ul className='h-full text-sm cursor-pointer'>
 													<li className='mb-5'>
 														<Link to='/uslugi/bani-i-sauni'
