@@ -97,13 +97,15 @@ export const HeaderInfo = ({ setIsVisible }) => {
 									<a href={`${screens.md ? 'https://t.me/' : 'https://t.me/@'}`}>
 										<Image src={telegram} preview={false} style={{ width: '30px' }} />
 									</a>
-									<a fref='http://wa.me/375290000000?text=нужен%ремонт%20'>
+									<a href='http://wa.me/375290000000?text=нужен%ремонт%20'>
 										<Image src={whatsapp} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
 									</a>
-									<a fref='viber://chat?number=%2B375293089091'>
+									<a href='viber://chat?number=%2B375293089091'>
 										<Image src={viber} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
 									</a>
-									<a fref='viber://chat?number=%2B375293089091'>
+									<a href='https://www.instagram.com/remont.mogilev'
+										target='_blank'
+									>
 										{/* <InstagramOutlined style={{ width: '30px', marginLeft: '1.5em' }} className='text-purple-600' /> */}
 										<Image src={instagram} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
 									</a>
