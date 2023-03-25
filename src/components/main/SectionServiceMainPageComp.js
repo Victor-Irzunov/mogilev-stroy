@@ -12,7 +12,7 @@ export const SectionServiceMainPageComp = () => {
 
 	return (
 		<section
-			className='mt-20 mb-10 px-5'
+			className='mt-20 mb-10 xyy:px-5 sm:container sm:mx-auto'
 		>
 			<Divider/>
 			{data.map((el, idx) => {

@@ -17,7 +17,7 @@ const BreadCrumbComp = () => {
 		const capatilize = s => s.charAt(0).toUpperCase() + s.slice(1)
 		return (
 			// ${pathname === '/' && 'hidden'}
-			<div className={`container px-5 ${screens.md ? 'pt-20': 'pt-4'}`}>
+			<div className={`xyy:px-5 sm:container sm:mx-auto ${screens.md ? 'pt-20': 'pt-4'}`}>
 				<Breadcrumb>
 					{
 						pathnames.length > 0

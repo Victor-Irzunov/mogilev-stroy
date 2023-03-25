@@ -101,7 +101,7 @@ export const HeaderInfo = ({ setIsVisible }) => {
 										<Image src={whatsapp} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
 									</a>
 									<a href='viber://chat?number=%2B375293089091'>
-										<Image src={viber} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
+										<Image src={viber} style={{ width: '32px', marginLeft: '1.5em' }} preview={false} />
 									</a>
 									<a href='https://www.instagram.com/remont.mogilev'
 										target='_blank'

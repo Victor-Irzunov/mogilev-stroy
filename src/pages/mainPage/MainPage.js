@@ -38,10 +38,10 @@ export const MainPage = () => {
 						<div className='container mx-auto px-10'>
 							<CarouselComp />
 							<div className='pt-6'>
-								<h1 className='text-2xl font-black uppercase tracking-wide'>Строительство и ремонт</h1>
+								<h1 className='text-2xl font-black uppercase tracking-wide'>Строительство и ремонт бань и крыш</h1>
 
 								<p className='mt-6 font-light'>
-									Оказываем полный комплекс услуг на любых объектах под ключ в<span className='font-bold'> Минске и Минской области</span>
+									Оказываем полный комплекс услуг на любых объектах под ключ в<span className='font-bold'> Могилеве и Могилевской области</span>
 								</p>
 							</div>
 

@@ -67,7 +67,7 @@ export const ServicePage = () => {
 								<title>{el.h1}</title>
 								<meta name="description" content={el.h2} />
 							</Helmet>
-							<div className='px-5 pb-20'>
+							<div className='xyy:px-5 pb-20 sm:container sm:mx-auto'>
 								<motion.div
 									className=''
 									initial="hidden"
