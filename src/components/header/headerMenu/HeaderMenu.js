@@ -4,7 +4,7 @@ import { Affix, Button, Divider, Image } from 'antd'
 import { motion, AnimatePresence } from "framer-motion"
 import { ShakeOutlined, CalendarOutlined, MenuOutlined } from '@ant-design/icons'
 import { DrawerComp } from '../../drawer/DrawerComp'
-import logo from '../../../images/logo/logo.png'
+import logo from '../../../images/logo/logo.webp'
 // import { Link as LinkScroll } from 'react-scroll'
 import { Link } from 'react-router-dom'
 
@@ -171,6 +171,14 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 														</Link>
 													</li>
 													<li className='mb-5'>
+														<Link to='/uslugi/zabor'
+															className="cursor-pointer"
+															onClick={handleMouseLeave}
+														>
+															Строительство забора из металлопрофиля 
+														</Link>
+													</li>
+													<li className='mb-5'>
 														<Link to='/uslugi/santekhnik'
 															className="cursor-pointer"
 															onClick={handleMouseLeave}
@@ -178,14 +186,7 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 															Услуги сантехника
 														</Link>
 													</li>
-													<li className='mb-5'>
-														<Link to='/uslugi/plitochnik'
-															className="cursor-pointer"
-															onClick={handleMouseLeave}
-														>
-															Услуги плиточника
-														</Link>
-													</li>
+													
 												</ul>
 
 												{/* <ul className='h-full text-sm cursor-pointer'>

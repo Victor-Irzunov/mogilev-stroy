@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Image, Button, Affix, Tooltip } from 'antd'
-import logo from '../../../images/logo/logo.png'
-import logo2 from '../../../images/logo/logo2.png'
+import logo from '../../../images/logo/logo.webp'
+import logo2 from '../../../images/logo/logo2.webp'
 import telegram from '../../../images/social-icon/telegram.svg'
 import viber from '../../../images/social-icon/viber.svg'
 import whatsapp from '../../../images/social-icon/WhatsApp.svg'
@@ -33,9 +33,9 @@ export const HeaderInfo = ({ setIsVisible }) => {
 
 							<div className='flex text-xl items-center font-light text-[#000]'>
 								<ClockCircleOutlined />
-								<span className='uppercase ml-2  mr-0.5'>контакт центр 24</span>
-								<span>/</span>
-								<span className='uppercase ml-0.5'>7</span>
+								<span className='uppercase ml-2  mr-0.5'>принимаем звонки 09:00</span>
+								<span>-</span>
+								<span className='uppercase ml-0.5'>21:00</span>
 							</div>
 
 
@@ -66,12 +66,12 @@ export const HeaderInfo = ({ setIsVisible }) => {
 						 relative z-10 bg-[#042A3F]'
 							variants={yAnimation3}
 						>
-							<div className='flex text-lg items-center'>
+							<div className='flex items-center'>
 								<ClockCircleOutlined />
 								{/* text-[#fdd158] */}
-								<span className='uppercase ml-2 font-semibold mr-0.5'>контакт центр 24</span>
-								<span>/</span>
-								<span className='uppercase ml-0.5 font-semibold'>7</span>
+								<span className='uppercase ml-2 font-semibold mr-0.5'>принимаем звонки 09:00</span>
+								<span>-</span>
+								<span className='uppercase ml-0.5 font-semibold'>21:00</span>
 							</div>
 							<div className='mt-2 mb-2'>
 								<div className='text-lg '>
@@ -97,9 +97,9 @@ export const HeaderInfo = ({ setIsVisible }) => {
 									<a href={`${screens.md ? 'https://t.me/' : 'https://t.me/@'}`}>
 										<Image src={telegram} preview={false} style={{ width: '30px' }} />
 									</a>
-									<a href='http://wa.me/375290000000?text=нужен%ремонт%20'>
+									{/* <a href='http://wa.me/375290000000?text=нужен%ремонт%20'>
 										<Image src={whatsapp} style={{ width: '30px', marginLeft: '1.5em' }} preview={false} />
-									</a>
+									</a> */}
 									<a href='viber://chat?number=%2B375293089091'>
 										<Image src={viber} style={{ width: '32px', marginLeft: '1.5em' }} preview={false} />
 									</a>

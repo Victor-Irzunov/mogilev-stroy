@@ -3,7 +3,7 @@ import { Carousel, Image } from 'antd'
 import krisha from '../../images/carousel/krisha.webp'
 import banya from '../../images/carousel/banya.webp'
 import kamin from '../../images/carousel/kamin.webp'
-import plitka from '../../images/carousel/plitka.webp'
+import zabor from '../../images/carousel/zabor.webp'
 import plumber from '../../images/carousel/plumber.webp'
 
 import { useScreens } from '../../constants/Constants'
@@ -29,7 +29,7 @@ const screens = useScreens()
 				<Image src={banya} preview={false} />
 			</div>
 			<div>
-				<Image src={plitka} preview={false} />
+				<Image src={zabor} preview={false} />
 			</div>
 			<div>
 				<Image src={plumber} preview={false} />

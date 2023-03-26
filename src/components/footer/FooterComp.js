@@ -61,7 +61,7 @@ export const FooterComp = () => {
               variants={titleAnimation2}
               className='text-2xl font-extrabold uppercase'
             >
-              remont-brigada.by
+              remontmogilev.by
             </motion.h2>
           </motion.div>
 
@@ -74,21 +74,16 @@ export const FooterComp = () => {
               variants={adressAnimation}
               className='font-light'
             >
-              Выполняем любые работы по строительству и ремонту бань и крыш.
+              Выполняем любые работы по строительству и ремонту бань, крыш и заборов.
             </motion.p>
             <motion.div
               variants={adressAnimation}
               className='flex justify-between items-center'>
-              <div className='text-lg font-extralight'>
-                <p className='mb-2'>г.Могилёв, Могилёвская 100</p>
-                <a
-                  href="mailto:.....@gmail.com"
-                  title="Наша почта"
-                  className='mb-3'
-                >
-                  <p>......@gmail.com</p>
-                </a>
+              <div className='text-lg font-extralight flex flex-col '>
+               
+        
                 <a href='tel:80293089091'>+375 (29) 308-90-91</a>
+                <a href='tel:80293613612'>+375 (29) 842-33-98</a>
               </div>
             </motion.div>
           </motion.div>

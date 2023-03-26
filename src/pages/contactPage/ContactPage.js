@@ -14,21 +14,21 @@ export const ContactPage = () => {
 					Наши контакты
 				</h1>
 				<div className='text-lg font-extralight flex flex-col justify-between items-start'>
-					<a href="https://yandex.by/maps/157/minsk/house/Zk4Ycg9pSEYOQFtpfXR4c3VrZw==/?ll=27.489139%2C53.892983&z=16.81"
+					{/* <a href="https://yandex.by/maps/157/minsk/house/Zk4Ycg9pSEYOQFtpfXR4c3VrZw==/?ll=27.489139%2C53.892983&z=16.81"
 						title="Наш адрес"
 						target='_blank'
 						rel="noreferrer"
 						className='mb-3'
 					>
 						г.Могилёв, Могилёвская 100
-					</a>
-					<a
+					</a> */}
+					{/* <a
 						href="mailto:brigady.by@gmail.com"
 						title="Наша почта"
 						className='mb-3'
 					>
 						........@gmail.com
-					</a>
+					</a> */}
 					<a href='tel:80293089091'>+375 (29) 308-90-91</a>
 					<a href='tel:80298423398'>+375 (29) 842-33-98</a>
 				</div>

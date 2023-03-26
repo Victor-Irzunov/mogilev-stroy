@@ -14,14 +14,14 @@ export const SectionGreyMain = () => {
 					className='text-2xl text-[#AFD93B]'
 					variants={titleAnimation}
 				>
-					remont-brigada.by
+					remontmogilev.by
 				</motion.h4>
 				<motion.p
 					className='font-light leading-6 text-lg tracking-wide'
 					variants={titleAnimation2}
 				>
-					Наша компания основана в 2010 году, за более чем 12 лет мы получили огромный опыт и собрали команду настоящих профессионалов. 
-					Обращаясь в нашу компанию Вы получаете качественный сервис по доступным ценам. Мы даём гарантию на свои работы.
+					Наш опыт строительства более чем 10 лет, за это время мы получили огромный опыт и собрали команду настоящих профессионалов. 
+					Обращаясь к нам Вы получаете качественный сервис по доступным ценам.
 				</motion.p>
 			</motion.div>
 		</section>
