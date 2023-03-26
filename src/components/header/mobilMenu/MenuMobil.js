@@ -75,6 +75,16 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
+						<Link to='/uslugi/zabor'
+							className="cursor-pointer"
+							onClick={onClose}
+							style={{ color: '#000' }}
+						>
+							Строительство забора из металлопрофиля 
+						</Link>
+					</li>
+					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
+					<li>
 						<Link to='/uslugi/santekhnik'
 							className="cursor-pointer"
 							onClick={onClose}
@@ -83,17 +93,6 @@ export const MenuMobil = ({ onClose }) => {
 							Услуги сантехника
 						</Link>
 					</li>
-					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
-					<li>
-						<Link to='/uslugi/plitochnik'
-							className="cursor-pointer"
-							onClick={onClose}
-							style={{ color: '#000' }}
-						>
-							Услуги плиточника
-						</Link>
-					</li>
-				
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
 						<Link to='/otzyvy'

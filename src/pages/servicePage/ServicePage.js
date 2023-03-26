@@ -9,7 +9,7 @@ import {
 	dataKaminy,
 	dataKrysha,
 	dataPlumber,
-	dataPlitka,
+	dataZabor,
 
 } from '../../constants/service/ServiceConst'
 import {
@@ -48,8 +48,8 @@ export const ServicePage = () => {
 			case '/uslugi/santekhnik':
 				setData(dataPlumber)
 				break
-			case '/uslugi/plitochnik':
-				setData(dataPlitka)
+			case '/uslugi/zabor':
+				setData(dataZabor)
 				break
 			
 		}

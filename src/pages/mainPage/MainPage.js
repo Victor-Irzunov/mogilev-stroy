@@ -67,7 +67,7 @@ export const MainPage = () => {
 									className='mt-6 text-lg font-light tracking-wide leading-6'
 									variants={titleAnimation2}
 								>
-									Оказываем полный комплекс услуг по строительству и ремонту <span className='underline font-normal'>крыш</span>, <span className='underline font-normal'>бань</span>, <span className='underline font-normal'>печей</span> и <span className='underline font-normal'>каминов</span> под ключ в<span className='font-semibold'> Могилеве и Могилевской области</span>
+									Оказываем полный комплекс услуг по строительству и ремонту <span className='underline font-normal'>крыш</span>, <span className='underline font-normal'>заборов</span>, <span className='underline font-normal'>бань</span>, <span className='underline font-normal'>печей</span> и <span className='underline font-normal'>каминов</span> под ключ в<span className='font-semibold'> Могилеве и Могилевской области</span>
 								</motion.h2>
 								<motion.h3
 									className='mt-6 font-light leading-5'
@@ -75,12 +75,12 @@ export const MainPage = () => {
 								>
 									Услуга <span className='uppercase'>сантехника</span> с выездом к клиенту в<span className='font-medium'> Могилеве и Могилевском районе</span>
 								</motion.h3>
-								<motion.h3
+								{/* <motion.h3
 									className='mt-6 font-light leading-5'
 									variants={titleAnimation2}
 								>
 									Услуга <span className='uppercase'>плиточника</span> в<span className='font-medium'> Могилеве и Могилевском районе</span>
-								</motion.h3>
+								</motion.h3> */}
 							</motion.div>
 
 							{/* <p className='text-center'>
